@@ -1,10 +1,10 @@
 Name:             mksh
-Version:          59
+Version:          59.3
 Release:          1
 Summary:          MirBSD enhanced version of the Korn Shell
 License:          MirOS and ISC and BSD
 URL:              https://www.mirbsd.org/mksh.htm
-Source0:          https://www.mirbsd.org/MirOS/dist/mir/%{name}/%{name}-R%{version}.tgz
+Source0:          https://www.mirbsd.org/MirOS/dist/mir/%{name}/%{name}-R59c.tgz
 Source1:          dot-mkshrc
 Source2:          rtchecks.expected
 
@@ -116,6 +116,9 @@ fi
 %{_mandir}/man1/*
 
 %changelog
+* Sat Jun 11 2022 YukariChiba <i@0x7f.cc> - 59.3-1
+- Upgrade version
+
 * Tue Jan 18 2022 SimpleUpdate Robot <tc@openeuler.org> - 59-1
 - Upgrade to version 59
 
